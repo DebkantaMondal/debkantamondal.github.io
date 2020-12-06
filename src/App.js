@@ -58,7 +58,7 @@ function App() {
     {spinner === false ? (
       <div>
 
-      {currMonth===12 && currDate===5 ? (<div><p className='greetSpace'><b>🥳 🎈 Hi! Debkanta .... Happy Birth Day 🎂 🥳 🎉</b></p><button className='btn btn-success wishBtn' onClick={notify}>Wish Him</button>
+      {currMonth===12 && currDate===6 ? (<div><p className='greetSpace'><b>🥳 🎈 Hi! Debkanta .... Happy Birth Day 🎂 🥳 🎉</b></p><button className='btn btn-success wishBtn' onClick={notify}>Wish Him</button>
         <ToastContainer position="top-center"
 autoClose={5000}
 hideProgressBar={false}
